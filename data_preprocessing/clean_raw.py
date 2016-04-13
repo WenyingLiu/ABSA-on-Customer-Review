@@ -22,13 +22,13 @@ def cleanFile(inputPath):
     return cleaned_sents, cleaned_labels
 
 def main():
-
+    
     cleaned_sents, cleaned_labels = cleanFile(inputPath)
 
-    pd_canon = pd.DataFrame(columns=['cleaned_sent', 'cleaned_label'])
-    pd_canon['cleaned_sent'] = cleaned_sents
-    pd_canon['cleaned_label'] = cleaned_labels
-    pd_canon.to_csv(outputPath)
+    pd_review = pd.DataFrame(columns=['cleaned_sent', 'cleaned_label'])
+    pd_review['cleaned_sent'] = cleaned_sents
+    pd_review['cleaned_label'] = cleaned_labels
+    pd_reivew.to_csv(outputPath)
 
 if __name__ == '__main__':
     main()
