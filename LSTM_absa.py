@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# In[ ]:
-
 '''
 Build proudct review aspect based sentiment analyzer.
 Referenced from http://deeplearning.net/tutorial/code/lstm.py
